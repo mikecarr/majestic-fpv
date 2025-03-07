@@ -15,7 +15,7 @@ cp -r www www.bak
 
 Then you need to scp the www folder to the device
 ```
-cd ...
+cd ..
 scp -Or www 192.168.1.18:/var
 ```
 
