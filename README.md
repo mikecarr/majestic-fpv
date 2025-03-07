@@ -16,7 +16,7 @@ cp -r www www.bak
 Then you need to scp the www folder to the device
 ```
 cd ...
-scp -O www 192.168.1.18:/var
+scp -Or www 192.168.1.18:/var
 ```
 
 Navigate to http://localhost:8080
